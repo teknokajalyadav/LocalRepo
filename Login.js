@@ -9,3 +9,10 @@ const Login = () => {
 };
 
 Login();
+
+const outputDiv = document.getElementById("output");
+outputDiv.innerHTML = `
+  <h2>Login Information</h2>
+  <p>Email: ${Data.email}</p>
+  <p>Password: ${Data.password}</p>
+`;
