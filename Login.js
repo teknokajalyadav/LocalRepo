@@ -7,3 +7,5 @@ const Login = () => {
   console.log(`Email: ${Data.email}`);
   console.log(`Password: ${Data.password}`);
 };
+
+Login();
